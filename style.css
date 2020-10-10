@@ -1,0 +1,155 @@
+html,
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+nav ul {
+    position: fixed;
+    top: 0px;
+    right: 20px;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #731d1d;
+    font-size: 24px;
+    font-family: "didot";
+}
+
+nav a:hover {
+    color: #726242;
+    transition: 0.5s;
+}
+
+h1 {
+    color: #731d1d;
+    font-family: "didot";
+    font-size: 40px;
+    text-align: center;
+    padding: 40px;
+}
+
+.news {
+    background-color: #f2e9d7;
+}
+
+.reblogCard {
+    float: left;
+    margin: 20px;
+}
+
+.reblog {
+    width: 1280px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+h2 {
+    color: #726242;
+    font-family: "didot";
+    font-size: 30px;
+}
+
+.about {
+    padding: 20px;
+}
+
+.about p {
+    color: #726242;
+    font-family: a-otf-ryumin-pr6n, serif;
+}
+
+.explaination {
+    width: 1000px;
+    margin: 20px auto;
+}
+
+h3 {
+    color: #726242;
+    font-family: a-otf-ryumin-pr6n, serif;
+    font-size: 25px
+}
+
+.information {
+    overflow: hidden;
+    background-color: #f2e9d7;
+}
+
+.information img {
+    float: left;
+    margin: 20px;
+}
+
+.information p {
+    color: #726242;
+    font-family: a-otf-ryumin-pr6n, serif;
+}
+
+.information_bigbox {
+    width: 780px;
+    margin: 0 auto;
+}
+
+.koushi {
+    width: 400px;
+    float: left;
+    margin: 20px;
+}
+
+.koushi h3 {
+    padding: 20px;
+}
+
+.reservation {
+    background-color: #f2e9d7;
+}
+
+.reservation p {
+    color: #726242;
+    font-family: a-otf-ryumin-pr6n, serif;
+}
+
+.reservation a {
+    color: #726242;
+    font-family: a-otf-ryumin-pr6n, serif;
+}
+
+.ressons {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 640px;
+    margin: 20px auto;
+}
+
+.map {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.access p {
+    color: #726242;
+    font-family: a-otf-ryumin-pr6n, serif;
+    text-align: center;
+}
+
+footer {
+    color: #731d1d;
+    font-family: "didot";
+    text-align: center;
+}
