@@ -37,11 +37,11 @@ nav a {
     color: #731d1d;
     font-size: 24px;
     font-family: "didot";
+    transition: 0.5s;
 }
 
 nav a:hover {
     color: #726242;
-    transition: 0.5s;
 }
 
 h1 {
@@ -71,7 +71,7 @@ section {
 }
 
 .reblog {
-    width: 1300px;
+    width: 1040px;
     overflow: hidden;
     margin: 0 auto;
     text-align: center;
@@ -84,6 +84,7 @@ h2 {
 }
 
 .about h2 {
+    font-size: 35px;
     padding: 20px 0px;
 }
 
@@ -94,7 +95,7 @@ h2 {
 
 .slick {
     margin: 50px auto;
-    width: 80%;
+    width: 100%;
 }
 
 .slick img {
@@ -127,7 +128,7 @@ h3 {
 
 .information img {
     float: left;
-    margin: 20px;
+    margin: 40px;
 }
 
 .information p {
@@ -136,27 +137,30 @@ h3 {
 }
 
 .information_bigbox {
-    width: 780px;
+    width: 1000px;
     margin: 0 auto;
+    background-color: rgb(255, 255, 255, 0.6);
+    overflow: hidden;
 }
 
 .koushi {
-    width: 400px;
+    width: 500px;
     float: left;
     margin: 20px;
 }
 
 .koushi h3 {
+    font-size: 35px;
     padding: 20px;
 }
 
 .garally img {
     width: 250px;
+    transition: 0.3s;
 }
 
 .garally img:hover {
     transform: scale(1.1, 1.1);
-    transition: 0.3s all;
     opacity: 0.7;
     overflow: hidden;
 }
@@ -180,14 +184,25 @@ h3 {
     font-family: a-otf-ryumin-pr6n, serif;
 }
 
-.reservation a {
-    color: #726242;
-    font-family: a-otf-ryumin-pr6n, serif;
-}
-
 .ressons {
     width: 1000px;
-    margin: 0 auto;
+    margin: 0 auto 40px;
+}
+
+.ressons h3 {
+    border-left: 10px solid #726242;
+    padding-left: 10px;
+    margin: 40px 0px 10px 0px;
+}
+
+.ressons a {
+    color: #726242;
+    font-family: a-otf-ryumin-pr6n, serif;
+    text-align: right;
+}
+
+.resson_element {
+    padding: 20px 0px;
 }
 
 .price {
@@ -195,8 +210,14 @@ h3 {
     font-size: 24px;
 }
 
+#price_explaination {
+    text-align: right;
+    font-size: 15px;
+}
+
 .form {
     text-align: center;
+    margin: 40px;
 }
 
 .form a {
@@ -206,6 +227,13 @@ h3 {
     background-color: #726242;
     text-decoration: none;
     font-size: 20px;
+    font-family: a-otf-ryumin-pr6n, serif;
+    transition: 0.3s;
+}
+
+.form a:hover {
+    color: #726242;
+    background-color: #fff;
 }
 
 .map {
