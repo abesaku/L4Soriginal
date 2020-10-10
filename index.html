@@ -5,24 +5,29 @@
     <meta charset="UTF-8">
     <title>La maison Agreable</title>
     <link href="style.css" rel="stylesheet">
+    <link href="slick/slick-theme.css" rel="stylesheet" type="text/css">
+    <link href="slick/slick.css" rel="stylesheet" type="text/css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 </head>
 
 <header>
-    <div>
-        <nav>
-            <ul>
-                <li><a href="#news">NEWS</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#information">INFORMATION</a></li>
-                <li><a href="#garally">GARALLY</a></li>
-                <li><a href="#reservation">RESERVATION</a></li>
-                <li><a href="#access">ACCESS</a></li>
-            </ul>
-        </nav>
-    </div>
-    <div>
+    <div class="bg-swicher">
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="#news">NEWS</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#information">INFORMATION</a></li>
+                    <li><a href="#garally">GARALLY</a></li>
+                    <li><a href="#reservation">RESERVATION</a></li>
+                    <li><a href="#access">ACCESS</a></li>
+                </ul>
+            </nav>
+        </div>
         <p>暮らしの中で”あったらいいな”を形に</p>
+
     </div>
 </header>
 
@@ -30,11 +35,12 @@
     <section class="news" id="news">
         <h1>NEWS</h1>
         <div class="reblog">
-
-            <iframe class="reblogCard" id="reblogCard1" data-ameba-id="kapipo1117" data-entry-id="12601358398" frameborder="0" height="234px" sandbox="allow-same-origin allow-scripts allow-top-navigation" scrolling="no" src="https://ameblo.jp/s/embed/reblog-card/kapipo1117/entry-12601358398.html?reblogAmebaId=ballet-cha777&amp;isLightPreview=true" width="600px"></iframe>
-
-            <iframe class="reblogCard" id="reblogCard2" data-ameba-id="kapipo1117" data-entry-id="12544847015" frameborder="0" height="234px" sandbox="allow-same-origin allow-scripts allow-top-navigation" scrolling="no" src="https://ameblo.jp/s/embed/reblog-card/kapipo1117/entry-12544847015.html?reblogAmebaId=ballet-cha777&amp;isLightPreview=true" width="600px"></iframe>
-
+            <div class="reblogCard1">
+                <iframe class="reblogCard" data-ameba-id="kapipo1117" data-entry-id="12601358398" frameborder="0" height="234px" sandbox="allow-same-origin allow-scripts allow-top-navigation" scrolling="no" src="https://ameblo.jp/s/embed/reblog-card/kapipo1117/entry-12601358398.html?reblogAmebaId=ballet-cha777&amp;isLightPreview=true" width="600px"></iframe>
+            </div>
+            <div class="reblogCard2">
+                <iframe class="reblogCard" data-ameba-id="kapipo1117" data-entry-id="12544847015" frameborder="0" height="234px" sandbox="allow-same-origin allow-scripts allow-top-navigation" scrolling="no" src="https://ameblo.jp/s/embed/reblog-card/kapipo1117/entry-12544847015.html?reblogAmebaId=ballet-cha777&amp;isLightPreview=true" width="600px"></iframe>
+            </div>
         </div>
 
     </section>
@@ -47,6 +53,14 @@
                 カルトナージュとは、厚紙(カルトン)で作った箱に布や紙を張って美しく仕上げたもの。<br>
                 18世紀に生まれたヨーロッパの伝統工芸です。
             </p>
+            <div class="slick">
+                <img src="img/cartonnage1.jpg" alt="cartonnage1">
+                <img src="img/cartonnage2.png" alt="cartonnage2">
+                <img src="img/cartonnage3.jpg" alt="cartonnage3">
+                <img src="img/cartonnage4.png" alt="cartonnage4">
+                <img src="img/cartonnage5.png" alt="cartonnage5">
+            </div>
+
         </div>
 
         <div class="explaination" id="gluedeco">
@@ -54,6 +68,13 @@
             <p>グルーデコ®は接着にグルーを使用したデコのことで、グルーとはエポキシ系の粘着性のあるパテのことをいいます。<br>
                 この素材を使用して色々なものを作り出すハンドクラフトが「グルーデコ®」です。
             </p>
+            <div class="slick">
+                <img src="img/gluedeco1.jpg" alt="gluedeco1">
+                <img src="img/gluedeco2.jpg" alt="gluedeco2">
+                <img src="img/gluedeco3.jpg" alt="gluedeco3">
+                <img src="img/gluedeco4.jpg" alt="gluedeco4">
+                <img src="img/gluedeco5.png" alt="gluedeco5">
+            </div>
         </div>
 
 
@@ -77,37 +98,69 @@
 
     <section class="garally" id="garally">
         <h1>GARALLY</h1>
-        <div></div>
+        <div class="instagram">
+            <div class="instagram_elements">
+                <a href="https://www.instagram.com/p/BtsvnICHTFr/?igshid=1hxt5dt46x055" target="_blank"><img src="img/ballet.png" alt="ballet"></a>
+
+                <a href="https://www.instagram.com/p/CFN2lyGnpK8/?igshid=1tdste7rvuj8c"><img src="img/pumpkin.png" alt="pumpkin"></a>
+
+                <a href="https://www.instagram.com/la_maison_agreable/?hl=ja"><img src="img/instagram_square.png" alt="instagram"></a>
+
+                <a href="https://www.instagram.com/p/CEGC_dmHeFz/?igshid=fczhx3yr2xjb"><img src="img/bag.jpg" alt="bag"></a>
+
+                <a href="https://www.instagram.com/p/CBIw0IzHWLB/?igshid=1ii81go45jj84"><img src="img/hand.png" alt="hand"></a>
+
+                <a href="https://www.instagram.com/p/CFRVAtlnCyp/?igshid=19yhq2vyft183"><img src="img/lavender.png" alt="lavender"></a>
+
+                <a href="https://www.instagram.com/p/CCGOlgVnELc/?igshid=5v9itui4o5k3"><img src="img/chair.png" alt="chair"></a>
+
+                <a href="https://www.instagram.com/p/CBb0vdrH9Yh/?igshid=d5ewvt53dolc"><img src="img/slipa.png" alt="slipa"></a>
+
+                <a href="https://www.instagram.com/p/B6ncKZtHvLT/?igshid=gwe1s0rpwpd0"><img src="img/miniture.png" alt="miniture"></a>
+
+                <a href="https://www.instagram.com/p/CFRVAtlnCyp/?igshid=19yhq2vyft183"><img src="img/pink.png" alt="pink"></a>
+
+            </div>
+        </div>
 
     </section>
 
     <section class="reservation" id="reservation">
         <h1>RESERVATION</h1>
         <div class="ressons">
-            <h3>体験レッスン</h3>
-            <p>カルトナージュ：マルチスタンド制作　￥4,500 <br>
-                グルーデコ：ハーフボリュームリング　￥3,500 <br>
-                その他バングル、ピアスなど
-            </p>
-
-            <h3>フリーレッスン</h3>
+            <div class="taiken-resson">
+                <h3>体験レッスン</h3>
+                <p>カルトナージュ：マルチスタンド制作　<span class="price">￥4,500</span> <br>
+                    グルーデコ：ハーフボリュームリング　<span class="price">￥3,500</span> <br>
+                    その他バングル、ピアスなど
+                </p>
+            </div>
+            
+            <div>
+                <h3>フリーレッスン</h3>
             <p>ご趣味としてカルトナージュを楽しまれたい方には、フリーコースとしてご受講いただきます。<br><br>
-                1レッスン ￥3000 <br>
+                1レッスン <span class="price">￥3000</span> <br>
                 10時半から13時(午前のレッスン) <br>
                 13時から15時半(午後のレッスン) <br>
             </p>
-            <a href="https://ameblo.jp/kapipo1117/entry-12442394253.html">→カルトナージュレッスンについて詳しくはこちら</a>
-
-            <h3>ディプロマレッスン</h3>
+            <a href="https://ameblo.jp/kapipo1117/entry-12442394253.html" target="_blank">→詳しくはこちら</a>
+            </div>
+            
+            <div>
+                <h3>ディプロマレッスン</h3>
             <p>ディプロマコースをご受講の生徒さまへの指導は、レシピや型紙をお渡しして、コース修了後にはアグレアブルのレシピで講師としてレッスン可能になります。<br><br>
-                1レッスン ￥ 6000＋1レシピ譲渡 ￥4000　<br>
+                1レッスン <span class="price">￥ 6000</span> <br>＋ <br>1レシピ譲渡 <span class="price">￥4000</span>　<br>
                 10時半から15時半<br><br>
                 (カルトンキット代金は別途、￥1500から￥2500くらい。仕入れ時期により材料費が異なりますので、変動する場合がございます。)
             </p>
-            <a href="https://ameblo.jp/kapipo1117/entry-12442440154.html">→グルーデコレッスンについて詳しくはこちら</a>
+            <a href="https://ameblo.jp/kapipo1117/entry-12442440154.html" target="_blank">→詳しくはこちら</a>
+            </div>
+            
+            <p>価格はすべて税別となっております。</p>
+
         </div>
         <div class="form">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGfSdoyQ1wVj1rHWPss2D3igXLcqYXuCSSUEIZ2GGMgOzzjw/viewform?embedded=true" width="640" height="320" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScGfSdoyQ1wVj1rHWPss2D3igXLcqYXuCSSUEIZ2GGMgOzzjw/viewform?usp=sf_link" target="_blank">お申し込みフォーム</a>
         </div>
 
     </section>
@@ -117,12 +170,30 @@
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.1911271671847!2d139.60240461540107!3d35.696914036719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ee017efde4f1%3A0xaafe3df969bbc892!2z44CSMTY4LTAwODEg5p2x5Lqs6YO95p2J5Lim5Yy65a6u5YmN77yT5LiB55uu77yR77yS4oiS77yW!5e0!3m2!1sja!2sjp!4v1602173313070!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             <p>西荻窪駅より徒歩約15分<br>
-            吉祥寺駅北口より関東バス中野行き宮前３丁目下車徒歩約3分<br>
-            荻窪駅南口より関東バス宮前３丁目行き都営団地前下車徒歩約3分
+                吉祥寺駅北口より関東バス中野行き宮前３丁目下車徒歩約3分<br>
+                荻窪駅南口より関東バス宮前３丁目行き都営団地前下車徒歩約3分
             </p>
         </div>
     </section>
     <footer>&copy;La maison Agreable</footer>
 
+    <script src="switcher/jquery.bgswitcher.js"></script>
+    <script>
+        $('.bg-switcher').bgSwitcher({
+            images: ['img/background1.png', 'img/background2.png', 'img/background3.png', 'img/background4.png', 'img/background5.png'], // 切り替える背景画像を指定
+        });
+    </script>
+
+    <script src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $('.slick').slick({
+            autoplay: true,
+            autoplaySpeed: 2000,
+            dots: true,
+            arrows: true,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+        });
+    </script>
 
 </body></html>

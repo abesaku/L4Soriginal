@@ -11,6 +11,16 @@ header {
     position: relative;
 }
 
+.bg-switcher {
+	width: 100vw;
+	height: 100vh;
+	background-position:center center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
 nav ul {
     position: fixed;
     top: 0px;
@@ -37,9 +47,17 @@ nav a:hover {
 h1 {
     color: #731d1d;
     font-family: "didot";
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
     padding: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+section {
+    padding: 60px 0px;
 }
 
 .news {
@@ -48,13 +66,15 @@ h1 {
 
 .reblogCard {
     float: left;
-    margin: 20px;
+    margin: 5px;
+    display: block;
 }
 
 .reblog {
-    width: 1280px;
+    width: 1300px;
     overflow: hidden;
     margin: 0 auto;
+    text-align: center;
 }
 
 h2 {
@@ -63,8 +83,8 @@ h2 {
     font-size: 30px;
 }
 
-.about {
-    padding: 20px;
+.about h2 {
+    padding: 20px 0px;
 }
 
 .about p {
@@ -72,9 +92,26 @@ h2 {
     font-family: a-otf-ryumin-pr6n, serif;
 }
 
+.slick {
+    margin: 50px auto;
+    width: 80%;
+}
+
+.slick img {
+    height: auto;
+    width: 100%;
+}
+
+/*slick setting*/
+.slick-prev:before,
+.slick-next:before {
+    color: #000;
+}
+
 .explaination {
     width: 1000px;
-    margin: 20px auto;
+    margin: 40px auto;
+    padding: 40px 0px;
 }
 
 h3 {
@@ -113,6 +150,27 @@ h3 {
     padding: 20px;
 }
 
+.garally img {
+    width: 250px;
+}
+
+.garally img:hover {
+    transform: scale(1.1, 1.1);
+    transition: 0.3s all;
+    opacity: 0.7;
+    overflow: hidden;
+}
+
+.instagram {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.instagram_elements {
+    text-align: center;
+}
+
+
 .reservation {
     background-color: #f2e9d7;
 }
@@ -132,9 +190,22 @@ h3 {
     margin: 0 auto;
 }
 
+.price {
+    color: #731d1d;
+    font-size: 24px;
+}
+
 .form {
-    width: 640px;
-    margin: 20px auto;
+    text-align: center;
+}
+
+.form a {
+    padding: 20px 40px;
+    border-radius: 15px;
+    color: #fff;
+    background-color: #726242;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .map {
@@ -152,4 +223,6 @@ footer {
     color: #731d1d;
     font-family: "didot";
     text-align: center;
+    background-color: #f2e9d7;
+    padding: 20px;
 }
