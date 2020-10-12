@@ -14,7 +14,7 @@
 </head>
 
 <header>
-    <div class="bg-swicher">
+    <div class="bg-switcher">
         <div class="nav">
             <nav>
                 <ul>
@@ -88,7 +88,9 @@
     <section class="information" id="information">
         <h1>INFORMATION</h1>
         <div class="information_bigbox">
+           <div class="koushi_image">
             <img src="img/teacher.png" alt="teacher" width="350px">
+          </div>
             <div class="koushi">
                 <h3>講師　あべかずえ</h3>
                 <p>・アトリエパピエ７５講師科修了 <br>
@@ -200,9 +202,20 @@
     <footer>&copy;La maison Agreable</footer>
 
     <script src="switcher/jquery.bgswitcher.js"></script>
-    <script>
+    <script type="text/javascript">
         $('.bg-switcher').bgSwitcher({
-            images: ['img/background1.png', 'img/background2.png', 'img/background3.png', 'img/background4.png', 'img/background5.png'], // 切り替える背景画像を指定
+            images: ['img/background1.png', 
+                     'img/background2.png', 
+                     'img/background3.png', 
+                     'img/background4.png', 
+                     'img/background5.png'], // 切り替える背景画像を指定
+            Interval: 8000, //画像から画像への切り替えの時間
+            start: true,
+            loop: true,
+            shuffle: true,
+            effect: "fade",
+            duration: 1000,
+            easing: "swing",
         });
     </script>
 

@@ -344,9 +344,29 @@ footer {
 
 @media screen and (max-width: 480px) {
     
+    header {
+        width: 100vw;
+    }
+    
     nav {
         display: none;
     }
+    
+    .title {
+        width: 350px;
+    }
+    
+    .title img {
+        width: 100%;
+    }
+    
+    .title p {
+        font-size: 15px;
+    }
+    
+    .sub-title p {
+        font-size: 13px;
+    } 
     
     h1 {
         font-size: 35px;
@@ -364,6 +384,19 @@ footer {
     .explaination {
         width: 100vw;
         margin: 0px;
+    }
+    
+    .information_bigbox {
+        width: 100%;
+        position: relative;
+    }
+    
+    .koushi_image img {
+        width: 300px;
+    }
+    
+    .koushi {
+        width: 100%;
     }
     
     .instagram {
@@ -398,5 +431,15 @@ footer {
         display: none;
     }
     
+    .ressons {
+        width: 100%;
+    }
     
+    .map {
+        width: 100%;
+    }
+    
+    .map iframe {
+        width: 100%;
+    }
 }
