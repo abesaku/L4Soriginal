@@ -203,6 +203,23 @@ h3 {
 .koushi_contact a {
     color: #726242;
     text-decoration: none;
+    position: relative;
+}
+
+.koushi_contact a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #726242;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform .3s;
+}
+.koushi_contact a:hover::after {
+  transform: scale(1, 1);
 }
 
 .garally img {
