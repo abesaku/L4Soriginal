@@ -16,24 +16,33 @@
 
 <header>
     <div class="bg-switcher">
-        <div class="nav">
-            <nav>
-                <ul>
-                    <li><a href="#news">NEWS</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <li><a href="#information">INFORMATION</a></li>
-                    <li><a href="#garally">GARALLY</a></li>
-                    <li><a href="#reservation">RESERVATION</a></li>
-                    <li><a href="#access">ACCESS</a></li>
+        <div>
+            <div class="humberger">
+                <span class="nav_toggle">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+
+
+            <nav class="nav">
+                <ul class="nav_menu_ul">
+                    <li class="nav_menu_li"><a href="#news">NEWS</a></li>
+                    <li class="nav_menu_li"><a href="#about">ABOUT</a></li>
+                    <li class="nav_menu_li"><a href="#information">INFORMATION</a></li>
+                    <li class="nav_menu_li"><a href="#garally">GARALLY</a></li>
+                    <li class="nav_menu_li"><a href="#reservation">RESERVATION</a></li>
+                    <li class="nav_menu_li"><a href="#access">ACCESS</a></li>
                 </ul>
             </nav>
         </div>
         <div class="title">
-        <div class="sub-title">
-        <p>カルトナージュ＆グルーデコ教室</p>
-        </div>
-        <img src="img/title.png" alt="title">
-        <p>暮らしの中で”あったらいいな”を形に</p>
+            <div class="sub-title">
+                <p>カルトナージュ＆グルーデコ教室</p>
+            </div>
+            <img src="img/title.png" alt="title">
+            <p>暮らしの中で”あったらいいな”を形に</p>
         </div>
     </div>
 </header>
@@ -89,9 +98,9 @@
     <section class="information" id="information">
         <h1>INFORMATION</h1>
         <div class="information_bigbox">
-           <div class="koushi_image">
-            <img src="img/teacher.png" alt="teacher" width="350px">
-          </div>
+            <div class="koushi_image">
+                <img src="img/teacher.png" alt="teacher" width="350px">
+            </div>
             <div class="koushi">
                 <h3>講師　あべかずえ</h3>
                 <p>・アトリエパピエ７５講師科修了 <br>
@@ -101,16 +110,16 @@
                     レッスンについてはお気軽にご連絡ください。
                 </p>
                 <div class="koushi_contact">
-                <img src="img/line.png" alt="line">
-                <p>
-                    kapipo1117
-                </p>
+                    <img src="img/line.png" alt="line">
+                    <p>
+                        kapipo1117
+                    </p>
                 </div>
                 <div class="koushi_contact">
-                <img src="img/call_icon.png" alt="call">
-                <p>
-                    <a href="tel:080-4086-6700">080-3024-5579</a>
-                </p>
+                    <img src="img/call_icon.png" alt="call">
+                    <p>
+                        <a href="tel:080-4086-6700">080-3024-5579</a>
+                    </p>
                 </div>
                 <div class="koushi_contact">
                     <img src="img/instagram_gold.png" alt="instagram icon">
@@ -194,22 +203,20 @@
         <h1>ACCESS</h1>
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.1911271671847!2d139.60240461540107!3d35.696914036719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ee017efde4f1%3A0xaafe3df969bbc892!2z44CSMTY4LTAwODEg5p2x5Lqs6YO95p2J5Lim5Yy65a6u5YmN77yT5LiB55uu77yR77yS4oiS77yW!5e0!3m2!1sja!2sjp!4v1602173313070!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            <p>西荻窪駅より徒歩約15分<br>
-                吉祥寺駅北口より関東バス中野行き宮前３丁目下車徒歩約3分<br>
-                荻窪駅南口より関東バス宮前３丁目行き都営団地前下車徒歩約3分
-            </p>
         </div>
+        <img src="img/access.png" alt="access">
     </section>
     <footer>&copy;La maison Agreable</footer>
 
     <script src="switcher/jquery.bgswitcher.js"></script>
     <script type="text/javascript">
         $('.bg-switcher').bgSwitcher({
-            images: ['img/background1.png', 
-                     'img/background2.png', 
-                     'img/background3.png', 
-                     'img/background4.png', 
-                     'img/background5.png'], // 切り替える背景画像を指定
+            images: ['img/background1.png',
+                'img/background2.png',
+                'img/background3.png',
+                'img/background4.png',
+                'img/background5.png'
+            ], // 切り替える背景画像を指定
             Interval: 8000, //画像から画像への切り替えの時間
             start: true,
             loop: true,
@@ -229,34 +236,48 @@
             arrows: false,
             slidesToShow: 3,
             slidesToScroll: 1,
-            responsive:[{
-            breakpoint: 480,
-            settings: {
-            slidesToShow: 1,
-        }
-        }]
+            responsive: [{
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }]
         });
     </script>
-    
+
+    <script type="text/javascript"></script>
+    <script>
+        jQuery(document).ready(function($) {
+            //600px以上の場合
+            if (window.matchMedia('(min-width: 480px)').matches) {
+                $(function() {});
+                //600px以下の場合
+            } else {
+                $(function() {
+                    $('.nav_toggle').on('click', function() {
+                        $('.nav_toggle, .nav').toggleClass('show');
+                    });
+                });
+            };
+        });
+    </script>
+
     <script type="text/javascript">
-$(document).ready(function(){
-   var day = new Date();
-   var month = date.getMonth() + 1;
- 
-var season;
-   if( month < 3 || month == 12 )	{	
-   	$('.nav a').css('color','#252c63');
-   }
-   else if( month < 6 )	{	
-   	$('.timechange-sample').css('background-color','#F3C336');
-   }
-   else if( month < 9 ) {
-   	$('.timechange-sample').css('background-color','#DA1414');
-   }
-   else {	
-   	$('.timechange-sample').css('background-color','#BD5001');
-   }
-});
-</script>
+        $(document).ready(function() {
+            var day = new Date();
+            var month = date.getMonth() + 1;
+
+            var season;
+            if (month < 3 || month == 12) {
+                $('.nav a').css('color', '#252c63');
+            } else if (month < 6) {
+                $('.timechange-sample').css('background-color', '#F3C336');
+            } else if (month < 9) {
+                $('.timechange-sample').css('background-color', '#DA1414');
+            } else {
+                $('.timechange-sample').css('background-color', '#BD5001');
+            }
+        });
+    </script>
 
 </body></html>
