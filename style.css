@@ -335,9 +335,13 @@ h3 {
     text-align: center;
 }
 
-.access img {
+#access_pc img {
     padding: 40px 40px 40px 120px;
     width: 1200px;
+}
+
+#access_sp img {
+    display: none;
 }
 
 footer {
@@ -568,8 +572,13 @@ footer {
         width: 100%;
     }
 
-    .access img {
-        width: 100vw;
-        padding: 0px;
+    #access_pc img {
+        display: none;
+    }
+    
+    #access_sp img {
+        display: block;
+        width: 350px;
+        padding: 20px 0px;
     }
 }
