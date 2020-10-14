@@ -336,8 +336,8 @@ h3 {
 }
 
 .access img {
-    padding: 40px;
-    width="1200px"
+    padding: 40px 40px 40px 120px;
+    width: 1200px;
 }
 
 footer {
@@ -482,19 +482,38 @@ footer {
     }
 
     .koushi_image img {
-        width: 300px;
+        width: 280px;
+        float: none;
     }
 
     .koushi {
         width: 100%;
+        float: none;
     }
 
     .koushi p {
         max-width: 350px;
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    
+    .koushi h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    .koushi img {
+        width: 30px;
+        margin: 7px 0px;
+    }
+    
+    .koushi_contact {
+        margin-left: 20px;
     }
 
     .koushi_contact p {
         width: 50%;
+        margin: 0px;
     }
 
     .instagram {
@@ -531,6 +550,14 @@ footer {
 
     .ressons {
         width: 100%;
+    }
+    
+    .resson_element h3 {
+        font-size: 25px;
+    }
+    
+    .resson_element p {
+        font-size: 15px;
     }
 
     .map {
