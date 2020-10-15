@@ -22,10 +22,14 @@ header {
 }
 
 nav ul {
+    width: 100vw;
     position: fixed;
     top: 0px;
-    right: 20px;
+    right: 0px;
     z-index: 1;
+    padding: 0px 20px;
+    background-color: rgba(242, 233, 215, 0.5);
+    text-align: right;
 }
 
 nav li {
