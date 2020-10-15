@@ -273,16 +273,22 @@ h3 {
     padding: 20px 0px;
 }
 
-.resson_element a {
+.resson_detail {
+    text-align: center;
+}
+
+.resson_detail a {
     color: #726242;
     font-family: a-otf-ryumin-pr6n, serif;
     text-align: right;
     text-decoration: none;
     position: relative;
     display: inline-block;
+    margin: 20px;
+    font-size: 18px;
 }
 
-.resson_element a::after {
+.resson_detail a::after {
     position: absolute;
     bottom: -4px;
     left: 0;
@@ -295,7 +301,7 @@ h3 {
     transition: transform .3s;
 }
 
-.resson_element a:hover::after {
+.resson_detail a:hover::after {
     transform: scale(1, 1);
 }
 
@@ -307,6 +313,8 @@ h3 {
 #price_explaination {
     text-align: right;
     font-size: 15px;
+    border-bottom: 1px solid #726242;
+    padding-bottom: 5px;
 }
 
 .form {
