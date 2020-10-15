@@ -469,8 +469,9 @@ footer {
     }
 
     .reblog {
-        width: 100%;
+        width: 350px;
         text-align: center;
+        margin: 0 auto;
     }
 
     .reblogCard {
