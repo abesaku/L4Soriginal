@@ -52,8 +52,12 @@ nav a:hover {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.title img {
+.title_pc img {
     width: 1000px;
+}
+
+.title_sp img {
+    display: none;
 }
 
 .title p {
@@ -366,12 +370,17 @@ footer {
         width: 370px;
     }
 
-    .title img {
-        width: 100%;
+    .title_pc img {
+        display: none;
+    }
+    
+    .title_sp img {
+        display: block;
+        margin: 0 auto;
     }
 
     .title p {
-        font-size: 15px;
+        font-size: 17px;
     }
     
     .humberger {
@@ -443,7 +452,7 @@ footer {
     }
 
     .sub-title p {
-        font-size: 13px;
+        font-size: 16px;
     }
     
     .nav ul {
