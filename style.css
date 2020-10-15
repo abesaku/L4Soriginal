@@ -520,7 +520,7 @@ footer {
         width: 90%;
         float: none;
         padding: 0px;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
         text-align: center;
         margin: 0 auto;
     }
@@ -584,7 +584,7 @@ footer {
     }
 
     .ressons {
-        width: 100%;
+        width: 90vw;
     }
     
     .resson_element h3 {
@@ -596,11 +596,11 @@ footer {
     }
 
     .map {
-        width: 100%;
+        width: 90vw;
     }
 
     .map iframe {
-        width: 100%;
+        width: 90vw;
     }
 
     #access_pc img {
