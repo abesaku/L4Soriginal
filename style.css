@@ -173,7 +173,7 @@ h3 {
 .koushi {
     width: 500px;
     float: left;
-    margin: 20px;
+    padding: 20px;
 }
 
 .koushi h3 {
@@ -377,7 +377,7 @@ footer {
     .humberger {
         position: absolute;
         top: 20px;
-        right: 10px;
+        right: 20px;
         z-index: 2;
     }
 
@@ -502,18 +502,24 @@ footer {
     }
 
     .information_bigbox {
-        width: 100%;
+        width: 355px;
         position: relative;
+    }
+    
+    .koushi_image {
+        text-align: center;
     }
 
     .koushi_image img {
         width: 280px;
         float: none;
+        margin: 40px auto;
     }
 
     .koushi {
-        width: 100%;
+        width: 315px;
         float: none;
+        padding-bottom: 40px;
     }
 
     .koushi p {
