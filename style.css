@@ -43,10 +43,30 @@ nav a {
     font-size: 24px;
     font-family: "didot";
     transition: 0.5s;
+    position: relative;
 }
 
+/*
 nav a:hover {
     color: #726242;
+}
+*/
+
+nav a::after {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #731d1d;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+nav a:hover::after {
+    transform: scale(1, 1);
 }
 
 .title {
@@ -244,7 +264,7 @@ h3 {
 }
 
 .instagram {
-    width: 1300px;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -357,7 +377,7 @@ h3 {
 
 #access_pc img {
     padding: 40px 40px 40px 120px;
-    width: 1200px;
+    max-width: 1200px;
 }
 
 #access_sp img {
@@ -517,6 +537,11 @@ footer {
     .explaination p {
         font-size: 15px;
     }
+    
+    .explaination_content {
+        width: 330px;
+        margin: 0 auto;
+    }
 
     .slick {
         width: 330px;
@@ -545,7 +570,7 @@ footer {
         width: 90%;
         float: none;
         padding: 0px;
-        padding-bottom: 20px;
+        padding-bottom: 60px;
         text-align: center;
         margin: 0 auto;
     }
@@ -553,7 +578,7 @@ footer {
     .koushi p {
         max-width: 350px;
         font-size: 15px;
-        margin: 0px 10px;
+        margin: 0 auto;
         text-align: left;
     }
     
@@ -568,7 +593,8 @@ footer {
     }
     
     .koushi_contact {
-        margin-left: 10px;
+        width: 330px;
+        margin: 0 auto;
     }
 
     .koushi_contact p {
@@ -627,7 +653,7 @@ footer {
     
     .resson_detail a {
         font-size: 12px;
-        background-color: #fff;
+        background-color: #f2e9d7;
         padding: 10px;
         border-radius: 20px;
         margin: 10px;
