@@ -118,18 +118,18 @@ section {
     background-color: #f2e9d7;
 }
 
-.reblogCard {
-    width: 510px;
-    float: left;
-    margin: 5px;
-    display: block;
-}
-
 .reblog {
-    width: 1040px;
+    width: 85vw;
     overflow: hidden;
     margin: 0 auto;
     text-align: center;
+}
+
+.reblogCard {
+    width: 49%;
+    float: left;
+    margin: 5px;
+    display: block;
 }
 
 h2 {
@@ -149,7 +149,7 @@ h2 {
 }
 
 .slick {
-    margin: 50px auto;
+    margin: 20px auto;
     width: 100%;
 }
 
@@ -546,6 +546,21 @@ footer {
     .slick {
         width: 330px;
     }
+    
+    .resson_detail {
+        text-align: center;
+    }
+    
+    .resson_detail a {
+        text-align: center;
+        font-size: 12px;
+/*
+        background-color: #f2e9d7;
+        padding: 10px;
+        border-radius: 20px;
+        margin: 10px;
+*/
+    }
 
     .information {
         overflow: hidden;
@@ -649,17 +664,6 @@ footer {
     #price_explaination {
         font-size: 10px;
         border: none;
-    }
-    
-    .resson_detail a {
-        text-align: center;
-        font-size: 12px;
-/*
-        background-color: #f2e9d7;
-        padding: 10px;
-        border-radius: 20px;
-        margin: 10px;
-*/
     }
 
     .map {
