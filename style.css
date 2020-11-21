@@ -295,6 +295,7 @@ h3 {
 
 .resson_element {
     padding: 20px 0px;
+    border-bottom: solid 1px #726242;
 }
 
 .plus {
@@ -341,20 +342,19 @@ h3 {
 #price_explaination {
     text-align: right;
     font-size: 15px;
-    border-bottom: 1px solid #726242;
     padding-bottom: 5px;
 }
 
 .form {
     text-align: center;
-    margin: 40px;
+    margin: 50px;
 }
 
 .form a {
     padding: 20px 40px;
     border-radius: 15px;
     color: #fff;
-    background-color: #726242;
+    background-color: #731d1d;
     text-decoration: none;
     font-size: 20px;
     font-family: a-otf-ryumin-pr6n, serif;
@@ -362,8 +362,48 @@ h3 {
 }
 
 .form a:hover {
-    color: #726242;
+    color: #731d1d;
     background-color: #fff;
+}
+
+.access_name img {
+    width: 40px;
+    margin: 10px 0px;
+    float: left;
+}
+
+.access_name {
+    color: #726242;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.access_name a {
+    text-decoration: none;
+    color: #726242;
+    position: relative;
+}
+
+.access_name a::after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: #726242;
+    transform: scale(0, 1);
+    transform-origin: center top;
+    transition: transform .3s;
+}
+
+.access_name a:hover::after {
+    transform: scale(1, 1);
+}
+
+.koushi_contact {
+    text-align: center;
 }
 
 .map {
