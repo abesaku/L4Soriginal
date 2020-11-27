@@ -366,12 +366,6 @@ h3 {
     background-color: #fff;
 }
 
-.access_name img {
-    width: 40px;
-    margin: 10px 0px;
-    float: left;
-}
-
 .access_name {
     color: #726242;
     width: 600px;
@@ -379,13 +373,32 @@ h3 {
     text-align: center;
 }
 
-.access_name a {
+.access_name a:hover::after {
+    transform: scale(1, 1);
+}
+
+.access_call {
+    overflow: hidden;
+}
+
+.access_call p {
+    padding: 10px;
+    text-align: left;
+}
+
+.access_call img {
+    width: 40px;
+    margin: 10px;
+    float: left;
+}
+
+.access_call a {
     text-decoration: none;
     color: #726242;
     position: relative;
 }
 
-.access_name a::after {
+.access_call a::after {
     position: absolute;
     bottom: -4px;
     left: 0;
@@ -396,14 +409,6 @@ h3 {
     transform: scale(0, 1);
     transform-origin: center top;
     transition: transform .3s;
-}
-
-.access_name a:hover::after {
-    transform: scale(1, 1);
-}
-
-.koushi_contact {
-    text-align: center;
 }
 
 .map {
