@@ -310,7 +310,7 @@ h3 {
 }
 
 .instagram {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -494,12 +494,12 @@ footer {
     }
 
     .title_pc img {
-        display: none;
+        width: 350px;
+        margin: 0 auto;
     }
     
     .title_sp img {
-        display: block;
-        margin: 0 auto;
+        display: none;
     }
 
     .title p {
@@ -683,7 +683,7 @@ footer {
     }
 
     .koushi {
-        width: 90%;
+        width: 80vw;
         float: none;
         padding: 0px;
         padding-bottom: 60px;
