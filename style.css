@@ -255,6 +255,10 @@ h3 {
     padding: 20px;
 }
 
+.koushi span {
+    font-size: 17px
+}
+
 .koushi img {
     width: 40px;
     margin: 10px 0px;
@@ -268,7 +272,6 @@ h3 {
 .koushi_contact {
     overflow: hidden;
 }
-
 
 .koushi_contact p {
     padding: 10px 20px;
@@ -336,7 +339,7 @@ h3 {
 .ressons h3 {
     border-left: 10px solid #726242;
     padding-left: 10px;
-    margin: 40px 0px 10px 0px;
+    margin: 40px 0px 20px 0px;
 }
 
 .resson_element {
@@ -495,6 +498,7 @@ footer {
 
     .title_pc img {
         width: 350px;
+        display: block;
         margin: 0 auto;
     }
     
@@ -660,7 +664,7 @@ footer {
     .profile {
         overflow: hidden;
     }
-
+    
     .profile_bigbox {
         width: 90vw;
         position: relative;
@@ -669,6 +673,9 @@ footer {
     .profile_intro {
         width: 75vw;
         padding: 30px;
+    }
+    
+    .profile_intro p {
         font-size: 15px;
     }
     
