@@ -14,7 +14,7 @@ html,
   position: fixed;
   top: 0;
   left: 0;
-  z-index: 9999;
+  z-index: 2;
 }
 .spinner {
   width: 100px;
@@ -22,7 +22,7 @@ html,
   margin: 200px auto;
   background-color: #731d1d;
   border-radius: 100%;
-  animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.5s infinite ease-in-out;
 }
 /* Loading Animation */
 @keyframes sk-scaleout {
@@ -36,8 +36,8 @@ html,
 
 /* Hide Loading Block */
 .loaded {
-  opacity: 0;
-  visibility: hidden;
+    opacity: 0;
+    visibility: hidden;
 }
 
 
@@ -221,6 +221,11 @@ h2 {
 .about p {
     color: #726242;
     font-family: a-otf-ryumin-pr6n, serif;
+}
+
+.swipe {
+    text-align: center;
+    display: none;
 }
 
 .slick {
@@ -676,6 +681,10 @@ footer {
     .explaination_content {
         width: 330px;
         margin: 0 auto;
+    }
+    
+    .swipe {
+        display: block;
     }
 
     .slick {
