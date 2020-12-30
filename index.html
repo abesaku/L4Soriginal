@@ -450,8 +450,9 @@
                 });
             };
         });
-        $('.nav > a').click(function() {
-            $('nav').removeClass('show');
+        $('.nav a').click(function() {
+            $('.nav').toggleClass('active');
+            $('.humberger').toggleClass('active');
         });
     </script>
 
