@@ -45,6 +45,10 @@
 </head>
 
 <header>
+    <div id="loading">
+        <div class="spinner"></div>
+    </div>
+
     <div class="bg-switcher">
         <div>
             <div class="humberger">
@@ -464,6 +468,15 @@
                 $('.timechange-sample').css('background-color', '#BD5001');
             }
         });
+    </script>
+
+    <script type="text/javascript">
+        window.onload = function() {
+            const spinner = document.getElementById('loading');
+
+            // Add .loaded to .loading
+            spinner.classList.add('loaded');
+        }
     </script>
 
 </body></html>
